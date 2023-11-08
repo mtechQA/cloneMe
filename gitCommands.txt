@@ -1,0 +1,21 @@
+git config lets you configure your Git settings, such as your name, email, editor, etc.
+git init creates a new Git repository in the current directory.
+git clone copies an existing Git repository from a remote server to your local machine.
+git add adds changes to the staging area, which is a temporary area where you can prepare your commits.
+git add . adds all changes to the staging area.
+git commit saves the changes in the staging area to the repository with a message describing what you did.
+git status shows the current state of your working directory and staging area, such as which files are modified, staged, or untracked.
+git push uploads your local commits to a remote repository, such as GitHub or Bitbucket.
+git pull downloads the latest changes from a remote repository and merges them with your local branch. Technically this does a git fetch, then a git merge (depending on repository set up)
+git branch creates, lists, renames, or deletes branches in your repository.
+git checkout switches to a different branch or restores files to a previous state.
+git merge combines two branches into one, resolving any conflicts if possible.
+git diff shows the differences between two commits, branches, files, or staging areas.
+git log shows the history of commits in your repository, with various options to filter or format the output.
+git stash temporarily saves your uncommitted changes and restores them later.
+git reset undoes changes to your working directory, staging area, or commits, depending on the options you use.
+git revert creates a new commit that reverses the changes of a previous commit, preserving the history.
+git rebase moves a series of commits to a new base commit, which can help create a linear history.
+git fetch downloads the latest changes from a remote repository without merging them with your local branch.
+git tag creates, lists, deletes, or verifies tags, which are labels that point to specific commits in your repository.
+git help displays help information about Git commands or concepts.
